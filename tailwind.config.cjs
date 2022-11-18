@@ -20,7 +20,15 @@ module.exports = {
       red: ['#FF6A60'],
       lpurple: ['#F3EDFB'],
       noir: ['#0A0909'],
-
+    },
+    width:{
+      'imgCard': '306px',
+      'icon': '44px',
+      'social': '34px',
+      'logo': '150px',
+    },
+    height:{
+      'social': "33px",
     }
   },
   plugins: [],
