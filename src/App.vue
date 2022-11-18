@@ -9,16 +9,14 @@ import Card from "./components/Card.vue";
 <template>
 
 
-  <!-- MAIN  -->
+  <!--  MAIN  -->
 
-
-
-  <div class="w-container flex">
-      <div class="flex gap-7 justify-center px-20 flex-col">
-
-          <div class="flex ">
-            <h1 class="">Les plus populaires 🔥</h1>
-            <div class="flex">
+  <!--  CARD-ROW  -->
+  <div class="flex justify-center">
+      <div class="flex gap-7 justify-center flex-col px-20">
+          <div class="flex justify-between mt-36">
+            <h1 class="uppercase">Les plus populaires 🔥</h1>
+            <div class="flex gap-x-5">
               <img class="h-hDirection w-wDirection" src="img/left.png">
               <img class="h-hDirection w-wDirection" src="img/right.png">
             </div>
@@ -26,27 +24,79 @@ import Card from "./components/Card.vue";
           <div class="flex gap-7 justify-center">
             <Card class="w-wCard h-hCard" img="img/intersect.png" title="management & leadership"
                   subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+++" />
-            <Card class="w-wCard h-hCard" img="img/intersect2.png" title="management & leadership"
+            <Card class="w-wCard h-hCard" img="img/intersect2.png" title="vente"
                   subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
-            <Card class="w-wCard h-hCard" img="img/intersect3.png" title="management & leadership"
+            <Card class="w-wCard h-hCard" img="img/intersect3.png" title="rh, qvt & diversité"
                   subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="++" />
-            <Card class="w-wCard h-hCard" img="img/intersect4.png" title="management & leadership"
+            <Card class="w-wCard h-hCard" img="img/intersect4.png" title="thématique 1"
                   subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+++" />
           </div>
-        </div>
 
       </div>
+  </div>
+  <!--  CARD-ROW  -->
+
+  <!--  CARD-ROW 2  -->
+  <div class="flex justify-center">
+    <div class="flex gap-7 justify-center flex-col px-20">
+      <div class="flex ">
+        <h1 class="uppercase mt-24">toute les formations 🚀</h1>
+      </div>
+      <div class="flex gap-7 justify-center">
+        <Card class="w-wCard h-hCard" img="img/intersect5.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+++" />
+        <Card class="w-wCard h-hCard" img="img/intersect6.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+        <Card class="w-wCard h-hCard" img="img/intersect7.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+++" />
+        <Card class="w-wCard h-hCard" img="img/intersect8.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+      </div>
+    </div>
+  </div>
+  <!--  CARD-ROW 2  -->
+
+  <!--  CARD-ROW 3  -->
+  <div class="flex justify-center mt-10">
+    <div class="flex gap-7 justify-center flex-col px-20">
+      <div class="flex gap-7 justify-center">
+        <Card class="w-wCard h-hCard" img="img/intersect9.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="++" />
+        <Card class="w-wCard h-hCard" img="img/intersect10.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+        <Card class="w-wCard h-hCard" img="img/intersect11.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+        <Card class="w-wCard h-hCard" img="img/intersect12.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+      </div>
+    </div>
+  </div>
+  <!--  CARD-ROW 3  -->
+
+  <!--  CARD-ROW 4  -->
+  <div class="flex justify-center mt-10">
+    <div class="flex gap-7 justify-center flex-col px-20">
+      <div class="flex gap-7 justify-center">
+        <Card class="w-wCard h-hCard" img="img/intersect13.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="++" />
+        <Card class="w-wCard h-hCard" img="img/intersect14.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+        <Card class="w-wCard h-hCard" img="img/intersect15.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+        <Card class="w-wCard h-hCard" img="img/intersect16.png" title="thématique 1"
+              subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
+      </div>
+    </div>
+  </div>
+  <!--  CARD-ROW 4  -->
 
 
-
-
-
-
-
-  <!-- MAIN  -->
+  <!--  MAIN  -->
 
 </template>
 
 <style scoped>
+
+
 
 </style>
