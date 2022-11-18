@@ -26,9 +26,20 @@ module.exports = {
       'icon': '44px',
       'social': '34px',
       'logo': '150px',
+      'wCard': '298px',
     },
     height:{
-      'social': "33px",
+      'social': '33px',
+      'hCard': '355px'
+    },
+    fontFamily:{
+      'Poppins': ['Poppins', 'sans-serif'],
+    },
+    boxShadow:{
+      'shadowCard': '2px 8px 30px rgba(37, 33, 32, 0.06)',
+    },
+    borderRadius:{
+      'radiusCard': '20px',
     }
   },
   plugins: [],
