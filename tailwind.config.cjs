@@ -27,10 +27,13 @@ module.exports = {
       'social': '34px',
       'logo': '150px',
       'wCard': '298px',
+      'wDirection': '17px',
+      'container': '1280px',
     },
     height:{
       'social': '33px',
-      'hCard': '355px'
+      'hCard': '355px',
+      'hDirection': '24px',
     },
     fontFamily:{
       'Poppins': ['Poppins', 'sans-serif'],
