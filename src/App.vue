@@ -3,6 +3,11 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import Card from "./components/Card.vue";
+import Button1 from "./components/Button1.vue";
+import Button2 from "./components/Button2.vue";
+import Cta from "./components/Cta.vue";
+import Pagination from "./components/Pagination.vue";
+
 
 </script>
 
@@ -86,10 +91,32 @@ import Card from "./components/Card.vue";
         <Card class="w-wCard h-hCard" img="img/intersect16.png" title="thématique 1"
               subTitle="Accueillir un.e collègue en situation de handicap" emoji="img/emoji.png" val="+" />
       </div>
+      <Pagination class="flex justify-end mt-5"/>
     </div>
   </div>
+
   <!--  CARD-ROW 4  -->
 
+
+
+  <!--  BOTTOM WINDOW  -->
+
+  <div class="flex justify-center mb-16  mt-24 ">
+    <div class="flex bg-lpurple-0 justify-center text-center flex-col w-wBoxCta h-hBoxCta rounded-r-radiusCard rounded-l-radiusCard">
+
+      <Cta text="C'est votre dernier mot ?" text2="Si vous n'avez pas trouvé ce que vous, dites-le nous." />
+
+      <div class="mt-6">
+        <Button1 class="mr-6" text="Je prends contact"/>
+        <Button2 text="Télecharger le catalogue" />
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!--  BOTTOM WINDOW   -->
 
   <!--  MAIN  -->
 
