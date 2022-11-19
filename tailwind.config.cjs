@@ -11,6 +11,7 @@ module.exports = {
       sm: ['12px', '18px'],
       footer: ['14px', '22px'],
       base: ['16px', '22px'],
+      numPagination:['24px', '18px'],
       lg: ['30px', '34px'],
       xl: ['60px', '66px'],
     },
