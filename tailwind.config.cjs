@@ -12,6 +12,7 @@ module.exports = {
       footer: ['14px', '22px'],
       base: ['16px', '22px'],
       numPagination:['24px', '18px'],
+      h4degrade:['24px', '28px'],
       lg: ['30px', '34px'],
       xl: ['60px', '66px'],
     },
@@ -34,6 +35,8 @@ module.exports = {
       'wDirection': '17px',
       'container': '1280px',
       'wBoxCta': "844px",
+      'wCircle': '36px',
+      'r-imgcard': '341px',
 
     },
     height:{
@@ -42,7 +45,9 @@ module.exports = {
       'hDirection': '24px',
       'hButton': '56px',
       'hBoxCta': '256px',
-
+      'hCircle': '36px',
+      'h-r-BoxCta': '300px',
+      'hr-card': '190px',
     },
     fontFamily:{
       'Poppins': ['Poppins', 'sans-serif'],
@@ -53,6 +58,7 @@ module.exports = {
     borderRadius:{
       'radiusCard': '20px',
       'radiusButton': '30px',
+      'radiusFull': '100%',
     }
   },
   plugins: [],
