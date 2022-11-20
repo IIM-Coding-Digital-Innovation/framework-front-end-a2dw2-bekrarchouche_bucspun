@@ -134,6 +134,21 @@ import Button from "./components/Button.vue";
 </main>
   <!--  CARD-ROW 4  -->
 
+  <!--  BOTTOM WINDOW  -->
+
+  <div class="flex justify-center mb-16  mt-24  max-md:px-4">
+    <div class="max-md:pt-8 max-md:pb-6 py-3.5 flex bg-lpurple-0 justify-center text-center flex-col w-wBoxCta h-hBoxCta rounded-r-radiusCard rounded-l-radiusCard max-md:h-h-r-BoxCta">
+      <Cta class="max-md:mt-12" text="C'est votre dernier mot ?" text2="Si vous n'avez pas trouvé ce que vous cherchez, dites-le nous." />
+      <div class="flex md:space-x-6 mt-6 px-6 justify-center max-md:flex-col max-md:space-y-4 max-md:mb-12">
+        <Button1 class="px-6" text="Je prends contact"/>
+        <Button2 text="Télecharger le catalogue" />
+      </div>
+    </div>
+  </div>
+
+
+  <!--  BOTTOM WINDOW   -->
+
   <!-- FOOTER  -->
   <footer class="bg-white dark:bg-noir-0 display-grid inline-grid grid-cols-5 py-8 px-6 ">
 
