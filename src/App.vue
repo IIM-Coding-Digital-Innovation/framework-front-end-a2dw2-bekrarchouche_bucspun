@@ -183,10 +183,8 @@ import Button from "./components/Button.vue";
     <div></div>
     <div class="flex flex-col ml-10 max-md:gap-4 max-md:mt-10 text-white-0 mt-8" >
       <p class="text-sm">©Skillsday 2022</p>
-      <p class="text-sm max-md:hidden">Mentions légales • Politique de confidentialité • CGV</p>
-      <p class="min-md:hidden max-md:text-sm ">Mentions légales</p>
-      <p class="min-md:hidden max-md:text-sm">Politique de confidentialité</p>
-      <p class="min-md:hidden max-md:text-sm">CGV</p>
+      <p class="text-sm max-md:">Mentions légales • Politique de confidentialité • CGV</p>
+      
     </div>
 
 
