@@ -39,12 +39,12 @@ import Button from "./components/Button.vue";
     <div class="flex flex-col items-center mt-[7em] w-full gap-6 " >
       <h1 class="text-xl font-Bold  items-center font-Bold text-white-0 max-md:text-sm ">Découvrez nos formations sur étagère !</h1>
       <p class="text-white-0 w-[844px] text-center mt-[10px] max-md:w-15 max-md:h-10 max-md:ml-[-255px] max-md:mr-[80px]">Notre catalogue de formations soft skills est le meilleur allié de vos managers et collaborateurs. Management, vente, ressources humaines, efficacité professionnelle... Composez votre parcours de formation et mixez les modalités pédagogiques pour développer leurs compétences.</p>
-      <div class = "w-[1122px] h-[105px] mt-[150px] ml-[250px] rounded-[30px] bg-white-0 flex  gap-10 max-md:ml-[-1px] max-md:w-[350px] max-md:flex-col max-md: h-[130px] max-md:ml-[5px] max-md:mb-[10px] mt-0 max-md:mt-10">
-      <div class = "flex items-center gap-[500px] flex-row w-[842px] h-[56px] mt-[25px] ml-[10px] rounded-[30px] bg-[#F3EDFB] place-content-center max-md:w-[320px] max-md:gap-[50px]   ">
-      <p class = "h-[22px] w-[282px] text-[#0A0909] font-Poppins max-md:w-[482px] ">Quelle formations recherchez-vous</p>
+      <div class = "w-[1122px] h-[105px] mt-[150px] ml-[250px] rounded-[30px] bg-white-0 flex  gap-10 max-md:ml-[-1px] max-md:w-[350px] max-md:flex-col max-md: h-[130px] max-md:ml-[5px] max-md:mb-[10px] mt-0 max-md:mt-10 shadow-2xl">
+      <div class = "flex items-center gap-[500px] flex-row w-[842px] h-[56px] mt-[25px] ml-[10px] rounded-[30px] bg-[#F3EDFB] place-content-center max-md:w-[320px] max-md:gap-[50px] ">
+      <p class = "h-[22px] w-[282px] text-[#0A0909] font-Poppins max-md:w-[482px]  ">Quelle formations recherchez-vous</p>
       <img src="public/img/loupe.png" class =" w-[40px] h-[42.11px] left-[780px] top-[150px] ">
       </div>
-      <div class = "box-border flex flex-row justify-center items-center p-0 gap-4 w-[187px] h-[60px] rounded-[30px] bg-[#F3EDFB] mt-[25px] max-md:w-[320px] max-md:mt-[-25px] max-md: h-[20px] max-md:ml-[10px]" >
+      <div class = "box-border flex flex-row justify-center items-center p-0 gap-4 w-[187px] h-[60px] rounded-[30px] bg-[#F3EDFB] mt-[25px] max-md:w-[320px] max-md:mt-[-25px] max-md: h-[60px] max-md:ml-[10px]" >
       <p class = "text-[#0A0909] font-Poppins font-normal h-[22px] w-[44px] ">Filtrer</p>
     </div>
     </div>
