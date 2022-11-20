@@ -6,10 +6,9 @@ defineProps(['img', 'title', 'subTitle', 'emoji', 'val'])
 
 <template>
 
-  <div class="flex flex-col bg-white-0 shadow-shadowCard rounded-r-radiusCard rounded-l-radiusCard ">
+  <div class="flex flex-col bg-white-0 shadow-shadowCard rounded-r-radiusCard rounded-l-radiusCard max-md:w-r-imgcard ">
 
-    <img class="w-imgCard" :src="img">
-
+    <img class="w-imgCard max-md:w-r-imgcard max-md:h-hr-card max-md:object-cover rounded-t-radiusCard" :src="img">
     <div class="flex flex-col items-start px-6 mt-4">
       <p class="text-xs font-normal uppercase font-Poppins not-italic ">{{title}}</p>
       <div class="flex flex-col w-contentCard gap-y-6">
