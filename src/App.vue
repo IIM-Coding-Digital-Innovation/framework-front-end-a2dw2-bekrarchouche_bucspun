@@ -7,16 +7,53 @@ import Button1 from "./components/Button1.vue";
 import Button2 from "./components/Button2.vue";
 import Cta from "./components/Cta.vue";
 import Pagination from "./components/Pagination.vue";
+import Button from "./components/Button.vue";
+
+
 
 
 </script>
 
 <template>
+  <!-- HEADER -->
+  <header class="bg-cover bg-center bg-no-repeat bg-header h-[464px] w-full">
+    <div class="flex content-center items-center pl-[55px] pt-[50px]">
+      <div class="mr-[90px] pl-[60px]">
+        <img src="/img/imagify.png" alt="">
+      </div>
+
+      <div class="flex gap-6 text-white-0 mr-[310px] max-md:hidden ">
+        <div class="font-Poppins">Offres</div>
+        <div class="font-Poppins font-Bold">Formations</div>
+        <div class="font-Poppins">Ressources</div>
+        <div class="font-Poppins">À propos</div>
+      </div>
 
 
-  <!--  MAIN  -->
+      <div class="flex flex-row gap-9 ml-[500px] max-md:hidden">
+        <Button class="text-white-0 text-ctanoir bg-white-0 bg-opacity-30 font-SemiBold border-0" text="06 74 49 03 21"/>
+        <Button class="text-purple-0 text-ctanoir bg-white-0 font-SemiBold border-0 " text="Je prends contact"/>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center mt-[7em] w-full gap-6 " >
+      <h1 class="text-xl font-Bold  items-center font-Bold text-white-0 max-md:text-sm ">Découvrez nos formations sur étagère !</h1>
+      <p class="text-white-0 w-[844px] text-center mt-[10px] max-md:w-15 max-md:h-10 max-md:ml-[-255px] max-md:mr-[80px]">Notre catalogue de formations soft skills est le meilleur allié de vos managers et collaborateurs. Management, vente, ressources humaines, efficacité professionnelle... Composez votre parcours de formation et mixez les modalités pédagogiques pour développer leurs compétences.</p>
+      <div class = "w-[1122px] h-[105px] mt-[150px] ml-[250px] rounded-[30px] bg-white-0 flex  gap-10 max-md:ml-[-1px] max-md:w-[350px] max-md:flex-col max-md: h-[130px] max-md:ml-[5px] max-md:mb-[10px] mt-0 max-md:mt-10">
+      <div class = "flex items-center gap-[500px] flex-row w-[842px] h-[56px] mt-[25px] ml-[10px] rounded-[30px] bg-[#F3EDFB] place-content-center max-md:w-[320px] max-md:gap-[50px]   ">
+      <p class = "h-[22px] w-[282px] text-[#0A0909] font-Poppins max-md:w-[482px] ">Quelle formations recherchez-vous</p>
+      <img src="public/img/loupe.png" class =" w-[40px] h-[42.11px] left-[780px] top-[150px] ">
+      </div>
+      <div class = "box-border flex flex-row justify-center items-center p-0 gap-4 w-[187px] h-[60px] rounded-[30px] bg-[#F3EDFB] mt-[25px] max-md:w-[320px] max-md:mt-[-25px] max-md: h-[20px] max-md:ml-[10px]" >
+      <p class = "text-[#0A0909] font-Poppins font-normal h-[22px] w-[44px] ">Filtrer</p>
+    </div>
+    </div>
+    </div>
+  
+  </header>
 
   <!--  CARD-ROW  -->
+  <main>
   <div class="flex justify-center">
       <div class="flex gap-7 justify-center flex-col px-20">
           <div class="flex justify-between mt-36">
@@ -94,32 +131,74 @@ import Pagination from "./components/Pagination.vue";
       <Pagination class="flex justify-end mt-5 max-md:justify-center"/>
     </div>
   </div>
-
+</main>
   <!--  CARD-ROW 4  -->
 
+  <!-- FOOTER  -->
+  <footer class="bg-white dark:bg-noir-0 display-grid inline-grid grid-cols-5 py-8 px-6 ">
 
-
-  <!--  BOTTOM WINDOW  -->
-
-  <div class="flex justify-center mb-16  mt-24  max-md:px-4">
-    <div class="max-md:pt-8 max-md:pb-6 py-3.5 flex bg-lpurple-0 justify-center text-center flex-col w-wBoxCta h-hBoxCta rounded-r-radiusCard rounded-l-radiusCard max-md:h-h-r-BoxCta">
-      <Cta class="max-md:mt-12" text="C'est votre dernier mot ?" text2="Si vous n'avez pas trouvé ce que vous cherchez, dites-le nous." />
-        <div class="flex md:space-x-6 mt-6 px-6 justify-center max-md:flex-col max-md:space-y-4 max-md:mb-12">
-          <Button1 class="px-6" text="Je prends contact"/>
-          <Button2 text="Télecharger le catalogue" />
-        </div>
+      <div class="text-3xl font-Poppins text-white-0 mt-20 ml-10" >
+        <p>skillsday</p>
+        <a class="text-sm text-left ">Skillsday est un organisme nouvelle génération qui a pour mission de moderniser et digitaliser la formation en entreprise pour former, vraiment !</a>
+      </div>
+      <div class="ml-16">
+        <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-green opacity-50 mt-32 ">Solutions</h2>
+        <ul class="text-white-0 dark:text-white-0">
+          <li class="mb-4">
+            <a href="#" class=" hover:underline font-SemiBold">Développer les soft skills</a>
+          </li>
+          <li class="mb-4">
+            <a href="#" class="hover:underline font-SemiBold">Digitaliser les formations</a>
+          </li>
+          <li class="mb-4">
+            <a href="#" class="hover:underline font-SemiBold">Accompagner les déploiements</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ml-16">
+        <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-green opacity-50 mt-32">Formations</h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-4">
+            <a href="#" class="hover:underline font-SemiBold text-white-0">Toutes les formations</a>
+          </li>
+          <li class="mb-4">
+            <a href="#" class="hover:underline font-SemiBold text-white-0">Télécharger le catalogue</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ml-16">
+        <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-green opacity-50 mt-32">Informations</h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-4">
+            <a href="#" class="hover:underline font-SemiBold text-white-0">Nous rejoindre</a>
+          </li>
+          <li class="mb-4">
+            <a href="#" class="hover:underline font-SemiBold text-white-0">Nous contacter</a>
+          </li>
+          <li class="mb-4">
+            <a href="#" class="hover:underline font-SemiBold text-white-0">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    <div></div>
+    <div class="flex flex-col ml-10 max-md:gap-4 max-md:mt-10 text-white-0 mt-8" >
+      <p class="text-sm">©Skillsday 2022</p>
+      <p class="text-sm max-md:hidden">Mentions légales • Politique de confidentialité • CGV</p>
+      <p class="min-md:hidden max-md:text-sm ">Mentions légales</p>
+      <p class="min-md:hidden max-md:text-sm">Politique de confidentialité</p>
+      <p class="min-md:hidden max-md:text-sm">CGV</p>
     </div>
-  </div>
 
 
-  <!--  BOTTOM WINDOW   -->
-
-  <!--  MAIN  -->
+    <div class="flex gap-3 mt-8 ml-20">
+      <img class="h-6" src="/img/insta.png">
+      <img class="h-6" src="/img/inconnu.png">
+      <img class="h-6" src="/img/youtube.png">
+      <img class="h-6" src="/img/link.png">
+    </div>
+  </footer>
 
 </template>
 
-<style scoped>
 
 
-
-</style>

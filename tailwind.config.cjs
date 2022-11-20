@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header': "url('public/img/header.png')",
+        'footer': ""
+    },
     fontSize:{
       xs: ['10px', '18px'],
       sm: ['12px', '18px'],
@@ -26,6 +30,7 @@ module.exports = {
       cyan: ['#80D4F8'],
       grey:['rgba(0, 0, 0, 0.5)'],
     },
+
     width:{
       'imgCard': '306px',
       'icon': '44px',
@@ -49,8 +54,14 @@ module.exports = {
       'h-r-BoxCta': '300px',
       'hr-card': '190px',
     },
+      fontWeight:{
+        'Bold': '700',
+        'SemiBold': '600',
+
+    },
     fontFamily:{
       'Poppins': ['Poppins', 'sans-serif'],
+      
     },
     boxShadow:{
       'shadowCard': '2px 8px 30px rgba(37, 33, 32, 0.06)',
@@ -61,5 +72,6 @@ module.exports = {
       'radiusFull': '100%',
     }
   },
-  plugins: [],
+  plugins: []
+}
 }
